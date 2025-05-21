@@ -1,0 +1,15 @@
+# RAG構築に必要な基本パッケージ
+langchain>=0.1.0
+langchain-community>=0.0.16
+langchain-ollama>=0.0.1
+pydantic>=2.5.2
+streamlit>=1.28.0
+faiss-cpu>=1.7.4
+pypdf>=3.17.1
+sentence-transformers>=2.2.2
+llama-index>=0.9.11
+# 評価用パッケージ（ステージ4で使用）
+ragas>=0.0.21
+# ユーティリティ
+python-dotenv>=1.0.0
+tqdm>=4.66.1
