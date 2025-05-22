@@ -184,3 +184,7 @@ models/*.onnx
 *.faiss
 *.pkl
 *.index
+
+.DS_Store
+/models/*
+/data/*

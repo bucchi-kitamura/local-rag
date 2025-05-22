@@ -1,15 +1,20 @@
-# RAG構築に必要な基本パッケージ
-langchain>=0.1.0
-langchain-community>=0.0.16
-langchain-ollama>=0.0.1
-pydantic>=2.5.2
-streamlit>=1.28.0
-faiss-cpu>=1.7.4
-pypdf>=3.17.1
-sentence-transformers>=2.2.2
+# document_rag_llama.py で使用されるライブラリのみ
+# LlamaIndex関連パッケージ
 llama-index>=0.9.11
-# 評価用パッケージ（ステージ4で使用）
-ragas>=0.0.21
-# ユーティリティ
-python-dotenv>=1.0.0
-tqdm>=4.66.1
+llama-index-core>=0.9.11
+llama-index-llms-ollama>=0.1.1
+llama-index-embeddings-huggingface>=0.1.1
+llama-index-readers-file>=0.1.1
+
+# 数値計算
+numpy>=1.24.0
+
+# 型ヒント（Python 3.8以下の場合）
+typing-extensions>=4.0.0
+
+# HuggingFace Transformersの依存関係（埋め込みモデル用）
+transformers>=4.21.0
+torch>=1.13.0
+
+# PDFファイル処理の依存関係
+pydantic>=2.5.2
